@@ -2,5 +2,16 @@
 @import "abstract/mixins";
 @import "abstract/variables";
 
+// base file
+@import "base/base";
+
+// components file
+@import "components/search";
+
 // pages file
 @import "pages/home";
+
+// layout file
+@import "layout/container";
+@import "layout/grid";
+@import "layout/header";

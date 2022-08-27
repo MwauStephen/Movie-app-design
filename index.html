@@ -4,7 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="Sass/main.css" />
     <title>Movie-app | Design</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <svg class="movie__icon">
+          <use xlink:href="img/sprite.svg#icon-video"></use>
+        </svg>
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="search for your favorite movies and shows"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <div class="user">
+          <img src="img/me.jpeg" alt="" class="user__photo" />
+        </div>
+      </header>
+      <div class="content">
+        <nav class="sidebar">
+          <!-- <ul class="side-nav">
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+          </ul> -->
+        </nav>
+        <div class="main-content"></div>
+      </div>
+    </div>
+  </body>
 </html>
