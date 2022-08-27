@@ -79,7 +79,7 @@ body {
 .search__icon {
   height: 2rem;
   width: 2rem;
-  fill: red;
+  fill: #e61212;
 }
 
 .row {
