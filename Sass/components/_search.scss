@@ -1,0 +1,38 @@
+.search {
+  display: flex;
+  align-items: center;
+  //   justify-content: center;
+  flex: 0 0 40%;
+  &__input {
+    font-size: inherit;
+    padding: 1.2rem 2.4rem;
+    border-radius: 10rem;
+    width: 60%;
+    border: none;
+    background: rgba(0, 0, 0, 0.7);
+    align-self: center;
+    margin-right: -3rem;
+    color: #ffff;
+    transition: width 0.2s;
+
+    &::placeholder {
+      color: $color-light-grey;
+      font-size: 1.1rem;
+    }
+
+    &:focus {
+      outline: none;
+      width: 80%;
+    }
+  }
+
+  &__button {
+    border: none;
+    background: none;
+  }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    fill: red;
+  }
+}
